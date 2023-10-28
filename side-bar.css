@@ -1,0 +1,32 @@
+.side-bar-section{
+    position: fixed;
+    background-color: white;
+    left:0;
+    bottom:0;
+    top:60px;
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    z-index:200;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height:72px;
+    width:75px;
+    margin-bottom:2px;
+    cursor:pointer;
+    flex-shrink: 0;
+}
+.box div{
+    font-size:10px;
+    margin-top:4px;
+}
+.box:hover{
+    background-color:rgb(236, 236, 236);
+}
+.home-img,.explore-img,.subscriptions-img,.originals-img,.youtube-music-img,.library-img{
+    height:22px;
+}
